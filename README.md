@@ -47,7 +47,8 @@ We were asked to replace the math and reading scores for Thomas High School with
 
 	As we removed the 9th grades scores form Thomas High School and the passing percentages went up significantly, it caused Thomas High School to be among the top 5 best performing schools, making it to second best overall as can be seen here:
 	
-	
+	![corrected_top5](https://user-images.githubusercontent.com/76575162/119298941-a438df80-bc23-11eb-82f3-d2bcc6d58646.png)
+
 
 - How does replacing the ninth-grade scores affect the following:
 
