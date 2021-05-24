@@ -18,8 +18,13 @@ We were asked to replace the math and reading scores for Thomas High School with
 	
 	As we were tasked to change test scores for one grade in one school, the effects on the district summary were fairly minimal since this subset of the population turned out to not be very large. The district summary initially went from this:
 	
+	![original_district_summary](https://user-images.githubusercontent.com/76575162/119297069-d6e0d900-bc1f-11eb-9359-26940cee2e10.png)
+
 	To this:
 	
+	![corrected_district_summary](https://user-images.githubusercontent.com/76575162/119297079-da746000-bc1f-11eb-8b77-7d6cffd68280.png)
+
+
 	There seem to be a little bit of variation in the percentages but most of the rest of the data including total schools, total students and total budget remain unchanged.
 	
 - How is the school summary affected?
@@ -28,8 +33,12 @@ We were asked to replace the math and reading scores for Thomas High School with
 	
 	The school summary initially went from this:
 	
+	![original_school_summary](https://user-images.githubusercontent.com/76575162/119297107-e95b1280-bc1f-11eb-8b40-a94d78f5529c.png)
+
 	To this:
 	
+	![corrected_school_summary](https://user-images.githubusercontent.com/76575162/119297110-ecee9980-bc1f-11eb-91f2-3b6f63c1f7f5.png)
+
 	
 	We notice a significant improvement in the passing percentages for Thomas High School as all the 9th graders scores were essentially dropped and those students were not counted to calculate passing percentages.
 	
@@ -40,32 +49,56 @@ We were asked to replace the math and reading scores for Thomas High School with
 
 	- Math and reading scores by grade
 		
-		The math and reading scores by grade both showed NaN for 9th grade at Thomas High School. This means they went from this:
+	The math and reading scores by grade both showed NaN for 9th grade at Thomas High School. This means they went from this:
+	
+	![original_math_bygrade](https://user-images.githubusercontent.com/76575162/119297128-f7a92e80-bc1f-11eb-9bba-e63f9bf72e9e.png)
+
 		
+	Math scores by grade
 		
-		Math scores by grade
+	![original_reading_bygrade](https://user-images.githubusercontent.com/76575162/119297132-fb3cb580-bc1f-11eb-8478-949665f6fabb.png)
+
 		
+	Reading scores by grade
 		
-		Reading scores by grade
+	To this:
 		
-		To this:
+	![corrected_math_bygrade](https://user-images.githubusercontent.com/76575162/119297153-042d8700-bc20-11eb-8ba7-f5f0ba545b1d.png)
+
+	Math scores by grade
 		
-		
-		Math scores by grade
-		
-		
-		Reading scores by grade		
+	![corrected_reading_bygrade](https://user-images.githubusercontent.com/76575162/119297161-07c10e00-bc20-11eb-9233-0a4255ef130e.png)
+
+	Reading scores by grade		
 		
 		
 	- Scores by school spending
+
+
+	![original_spending_summary](https://user-images.githubusercontent.com/76575162/119297182-127ba300-bc20-11eb-9476-4992990d968a.png)
 		
+	![corrected_spending_summary](https://user-images.githubusercontent.com/76575162/119297248-350dbc00-bc20-11eb-9940-b7b6103a91d2.png)
+
+
+
 		
 	- Scores by school size
 	
 	
+	![original_size_summary](https://user-images.githubusercontent.com/76575162/119297302-4b1b7c80-bc20-11eb-84cb-ed9c0b83caf6.png)
+	
+	![corrected_size_summary](https://user-images.githubusercontent.com/76575162/119297307-4d7dd680-bc20-11eb-8e18-890184dd676f.png)
+
+
+
+
 	
 	- Scores by school type
+
+
+	![original_type_summary](https://user-images.githubusercontent.com/76575162/119297254-3b039d00-bc20-11eb-9e26-9bb23e4cdc1f.png)
 	
+	![corrected_type_summary](https://user-images.githubusercontent.com/76575162/119297274-3f2fba80-bc20-11eb-8b9d-1e72c560b803.png)
 		
 
 ## Summary
