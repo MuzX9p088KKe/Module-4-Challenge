@@ -25,7 +25,7 @@ We were asked to replace the math and reading scores for Thomas High School with
 	![corrected_district_summary](https://user-images.githubusercontent.com/76575162/119297079-da746000-bc1f-11eb-8b77-7d6cffd68280.png)
 
 
-	There seem to be a little bit of variation in the percentages but most of the rest of the data including total schools, total students and total budget remain unchanged.
+	There seems to be a little bit of variation in the percentages but most of the rest of the data including total schools, total students and total budget remain unchanged.
 	
 - How is the school summary affected?
 	
@@ -33,16 +33,21 @@ We were asked to replace the math and reading scores for Thomas High School with
 	
 	The school summary initially went from this:
 	
-	![original_school_summary](https://user-images.githubusercontent.com/76575162/119297107-e95b1280-bc1f-11eb-8b40-a94d78f5529c.png)
+	![original_school_summary](https://user-images.githubusercontent.com/76575162/119297110-ecee9980-bc1f-11eb-91f2-3b6f63c1f7f5.png)
+	
 
 	To this:
 	
-	![corrected_school_summary](https://user-images.githubusercontent.com/76575162/119297110-ecee9980-bc1f-11eb-91f2-3b6f63c1f7f5.png)
+	![corrected_school_summary](https://user-images.githubusercontent.com/76575162/119297107-e95b1280-bc1f-11eb-8b40-a94d78f5529c.png)
 
 	
 	We notice a significant improvement in the passing percentages for Thomas High School as all the 9th graders scores were essentially dropped and those students were not counted to calculate passing percentages.
 	
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+
+	As we removed the 9th grades scores form Thomas High School and the passing percentages went up significantly, it caused Thomas High School to be among the top 5 best performing schools, making it to second best overall as can be seen here:
+	
+	
 
 - How does replacing the ninth-grade scores affect the following:
 
@@ -71,23 +76,33 @@ We were asked to replace the math and reading scores for Thomas High School with
 
 	Reading scores by grade		
 		
+		Other than the 9th graders scores from THS becoming NaN, no changes here.
+		
 		
 	- Scores by school spending
 
 
 	![original_spending_summary](https://user-images.githubusercontent.com/76575162/119297182-127ba300-bc20-11eb-9476-4992990d968a.png)
+	
+		Original
 		
 	![corrected_spending_summary](https://user-images.githubusercontent.com/76575162/119297248-350dbc00-bc20-11eb-9940-b7b6103a91d2.png)
+	
+		Corrected
+		
+		
+	
+	
 
 
-
+	
 		
 	- Scores by school size
 	
 	
-	![original_size_summary](https://user-images.githubusercontent.com/76575162/119297302-4b1b7c80-bc20-11eb-84cb-ed9c0b83caf6.png)
+		![original_size_summary](https://user-images.githubusercontent.com/76575162/119297302-4b1b7c80-bc20-11eb-84cb-ed9c0b83caf6.png)
 	
-	![corrected_size_summary](https://user-images.githubusercontent.com/76575162/119297307-4d7dd680-bc20-11eb-8e18-890184dd676f.png)
+		![corrected_size_summary](https://user-images.githubusercontent.com/76575162/119297307-4d7dd680-bc20-11eb-8e18-890184dd676f.png)
 
 
 
@@ -96,9 +111,21 @@ We were asked to replace the math and reading scores for Thomas High School with
 	- Scores by school type
 
 
-	![original_type_summary](https://user-images.githubusercontent.com/76575162/119297254-3b039d00-bc20-11eb-9e26-9bb23e4cdc1f.png)
+		![original_type_summary](https://user-images.githubusercontent.com/76575162/119297254-3b039d00-bc20-11eb-9e26-9bb23e4cdc1f.png)
+		
+		original
 	
-	![corrected_type_summary](https://user-images.githubusercontent.com/76575162/119297274-3f2fba80-bc20-11eb-8b9d-1e72c560b803.png)
+		![corrected_type_summary](https://user-images.githubusercontent.com/76575162/119297274-3f2fba80-bc20-11eb-8b9d-1e72c560b803.png)
+		
+		corrected
 		
 
 ## Summary
+
+Thomas High School ended up showing higher average test scores.  
+
+Thomas High School ended up becoming number two top performing school.
+
+Thomas High School had a smaller amount of students to count.
+
+Thomas High School had a higher overall passing rate.
